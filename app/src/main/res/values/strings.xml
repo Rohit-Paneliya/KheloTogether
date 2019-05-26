@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">KheloTogether</string>
+    <string name="khelo">Khelo</string>
+    <string name="together">Together</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">Or</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="wanna_play">Wanna play?</string>
+    <string name="sign_up">Sign up</string>
 </resources>

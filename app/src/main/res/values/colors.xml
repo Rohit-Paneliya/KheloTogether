@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#97E943</color>
+    <color name="colorPrimaryDark">#52854C</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="app_green_color">#1F411E</color>
+    <color name="splash_logo_dark_green">#52854C</color>
+    <color name="splash_logo_light_green">#97E943</color>
 </resources>
