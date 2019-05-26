@@ -10,8 +10,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
-        <activity android:name=".SplashActivity" android:screenOrientation="portrait"
-                  android:theme="@style/SplashTheme">
+        <activity
+                android:name=".activities.SplashActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,9 +21,16 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.LoginActivity"
-                  android:theme="@style/AuthenticationScreenTheme"
-                  android:screenOrientation="portrait">
+        <activity
+                android:name=".activities.LoginActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AuthenticationScreenTheme">
+        </activity>
+
+        <activity
+                android:name=".activities.IntroductionActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AuthenticationScreenTheme">
         </activity>
     </application>
 

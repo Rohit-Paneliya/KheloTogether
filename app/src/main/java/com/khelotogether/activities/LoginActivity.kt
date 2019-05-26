@@ -1,15 +1,11 @@
 package com.khelotogether.activities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.InputType
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.khelotogether.R
+import com.khelotogether.utils.AppAndroidUtils
 import kotlinx.android.synthetic.main.activity_login.*
-import android.text.InputFilter
-import android.view.Window
-import android.transition.Explode
-import android.transition.Slide
 
 
 class LoginActivity : AppCompatActivity() {
@@ -17,6 +13,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        AppAndroidUtils.startFwdAnimation(this)
 
         radioGroupLoginType.setOnCheckedChangeListener { group, checkedId ->
             when (checkedId) {
@@ -38,5 +35,12 @@ class LoginActivity : AppCompatActivity() {
         }
 
         radioGroupLoginType.check(R.id.radioEmail)
+
+        imageBackArrow.setOnClickListener { onBackPressed() }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        AppAndroidUtils.startBackAnimation(this)
     }
 }

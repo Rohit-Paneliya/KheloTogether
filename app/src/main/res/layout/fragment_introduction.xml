@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context=".fragments.IntroductionFragment">
+
+    <ImageView
+            android:contentDescription="@null"
+            android:id="@+id/imageView"
+            android:src="@drawable/intro_1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+    <TextView
+            android:id="@+id/textViewTitle"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_16dp"
+            android:textSize="@dimen/textsize_18sp"
+            android:fontFamily="sans-serif-medium"
+            tools:text="Khelo together"
+            android:layout_marginTop="@dimen/margin_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/textViewDesc"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            tools:text="Khelo together"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

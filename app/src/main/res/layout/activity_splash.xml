@@ -7,8 +7,24 @@
         android:gravity="center"
         android:animateLayoutChanges="true"
         android:layout_height="match_parent"
-        tools:context=".SplashActivity">
+        tools:context=".activities.SplashActivity">
 
-    <include layout="@layout/layout_logo"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khelo"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/splash_logo_dark_green"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/together"
+            android:gravity="center_horizontal|top"
+            android:textSize="45sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/splash_logo_light_green"/>
 
 </LinearLayout>
